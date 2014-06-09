@@ -12,14 +12,14 @@ window.Warmup = {
       Description: show the names of the people at the second level
       Outcome: Joel, Aaliyah, Claude
     */
-    showNamesForSelector("#second-level-button", ___);
+    showNamesForSelector("#second-level-button", "#root > li > ul > li > span");
     //                       You need to replace ^^^ with a valid CSS selector
 
     /*
       Description: show the names of the people who have data-employment="full-time"
       Outcome: Izaiah, Della, Lowell
     */
-    showNamesForSelector("#full-time-button", ___);
+    showNamesForSelector("#full-time-button", "#root > li > ul > li > span > .full-time");
 
     /*
       Description: show the names of the people with the class name "talkative"
