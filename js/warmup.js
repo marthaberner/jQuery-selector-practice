@@ -19,37 +19,37 @@ window.Warmup = {
       Description: show the names of the people who have data-employment="full-time"
       Outcome: Izaiah, Della, Lowell
     */
-    showNamesForSelector("#full-time-button", "#root > li > ul > li > span > .full-time");
+    showNamesForSelector("#full-time-button", "[data-employment=full-time]");
 
     /*
       Description: show the names of the people with the class name "talkative"
       Outcome: Claude, Lurline
     */
-    showNamesForSelector("#talkative-button", ___);
+    showNamesForSelector("#talkative-button", ".talkative");
 
     /*
       Description: show the names of the people who have an id of "vp"
       Outcome: Eulalia
     */
-    showNamesForSelector("#vp-button", ___);
+    showNamesForSelector("#vp-button", "#vp");
 
     /*
       Description: show the names of the people under Isaiah
       Outcome: Della, Lurline, Aaliyah, Elisa
     */
-    showNamesForSelector("#under-isaiah-button", ___);
+    showNamesForSelector("#under-isaiah-button", "#root > li:first li span");
 
     /*
       Description: show the names of the people under Eulalia
       Outcome: Claude, Lowell
     */
-    showNamesForSelector("#under-eulalia-button", ___);
+    showNamesForSelector("#under-eulalia-button", "#root > li:last ul li span");
 
     /*
       Description: values of all of the input fields of type text
       Outcome: Joe, Example
     */
-    showValuesForSelector("#text-field-button", ___);
+    showValuesForSelector("#text-field-button", "[type=text");
 
   }
 
